@@ -1,0 +1,218 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.intro {
+  height: 100vh;
+  position: relative;
+  color: #fff0;
+}
+
+.intro .swiper-pagination {
+  bottom: 20px;
+}
+
+.intro .swiper-pagination .swiper-pagination-bullet {
+  width: 18px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 0;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.intro .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f5821f;
+  width: 36px;
+}
+
+.intro .intro-item {
+  padding-top: 2rem;
+}
+
+.intro .carousel-item-a {
+  position: relative;
+  height: 100vh;
+}
+
+.intro .carousel-item-a.bg-image {
+  background-attachment: scroll;
+}
+
+.intro .intro-content {
+  position: absolute;
+}
+
+/* .intro .intro-body {
+  padding-left: 1rem;
+} */
+
+/* @media (min-width: 768px) {
+  .intro .intro-body {
+    padding-left: 2rem;
+  }
+} */
+
+.carousel-logos {
+  height: -webkit-fill-available !important;
+}
+.intro .intro-body .price-a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border: 2px solid #f5821f;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.intro .intro-body .price-a:hover {
+  color: white;
+}
+.intro .spacial {
+  animation-delay: 0.2s;
+  color: #fff;
+}
+
+.intro .intro-title-top {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 768px) {
+  .intro .intro-title-top {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro .intro-title-top {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.intro .intro-title {
+  color: #fff;
+  font-weight: 700;
+  /* font-size: 2.8rem; */
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  .intro .intro-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro .intro-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro .intro-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .intro .intro-title {
+    font-size: 4rem;
+  }
+}
+
+.intro .intro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .intro .intro-subtitle {
+    font-size: 2.5rem;
+  }
+}
+
+.intro .intro-subtitle.intro-price {
+  padding-top: 1rem;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+@media (min-width: 576px) {
+  .intro .intro-subtitle.intro-price {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro .intro-subtitle.intro-price {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro .intro-subtitle.intro-price {
+    padding-top: 3rem;
+  }
+}
+
+/*------/ Intro Single /------*/
+.intro-single {
+  padding: 12rem 0 3rem;
+}
+
+@media (max-width: 767px) {
+  .intro-single {
+    padding-top: 9rem;
+  }
+}
+
+.intro-single .title-single-box {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.intro-single .title-single-box {
+  border-left: 3px solid #f5821f;
+}
+
+.intro-single .title-single-box .title-single {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+@media (min-width: 768px) {
+  .intro-single .title-single-box .title-single {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-single .title-single-box .title-single {
+    font-size: 2.5rem;
+  }
+}
+
+.intro-single .breadcrumb-box {
+  padding: 1rem 0 0 0.5rem;
+}
+
+.intro-single .breadcrumb {
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro .carousel-item-a {
+    position: relative;
+    height: 70vh !important;
+  }
+  .intro {
+    position: relative;
+    height: 70vh !important;
+  }
+}

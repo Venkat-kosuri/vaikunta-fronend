@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes flip {
+  0% {
+    transform: perspective(800px) rotateX(0);
+  }
+  50% {
+    transform: perspective(800px) rotateX(-180deg);
+  }
+  100% {
+    transform: perspective(800px) rotateX(0);
+  }
+}
+
+.hover-flip:hover {
+  animation: flip 1s;
+  transform-style: preserve-3d;
+}
+.body {
+  background-color: #f9faff;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-header:before {
+    width: 60%;
+  }
+}
+.section-header:before {
+  color: #ffffff;
+  content: "";
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  background: #ccc;
+  height: 0.063rem;
+}
+.section-header {
+  position: relative;
+  font-weight: 700;
+  color: #000;
+  font-size: calc(1.2625rem + 0.15vw);
+  margin-top: 0.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-header span {
+  display: inline-block;
+  padding: 0 1.563rem;
+  background: #15102a;
+  color: #ffffff;
+  position: relative;
+}
+.section-header-1 {
+  background: #fff !important;
+  color: #000 !important;
+}
+/* CSS */
+.btn-design-ready {
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.btn-design-ready:hover {
+  transform: scale(1.1);
+}
+.covering-text:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+}
