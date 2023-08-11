@@ -63,13 +63,13 @@ const Products = () => {
         }}
       ></div>
       <div className="container mx-auto p-4 md:my-20">
-        <div className="flex flex-wrap justify-center space-x-4 mb-4">
+        <div className="flex flex-wrap justify-center space-x-3 sm:space-x-4 mb-4">
           {categories.map((category, index) => (
             <button
               key={index}
               className={`${
                 selectedCategory === category ? "bg-[#F5821F]" : "bg-[#15102A]"
-              } rounded px-4 py-2 text-white mb-4`}
+              } rounded px-4 py-2 text-white mb-4 text-[15px] sm:text-lg`}
               onClick={() => setSelectedCategory(category)}
             >
               {category}
@@ -102,7 +102,7 @@ const Products = () => {
                 </div>
               </div>
               <div className="mt-5">
-                <h3 className="text-[15px] sm:text-lg font-semibold">
+                <h3 className="text-lg font-semibold">
                   {product.product_title}
                 </h3>
               </div>
