@@ -6,9 +6,9 @@ import idcard4 from "../assets/website_products/47.jpg";
 import holders1 from "../assets/website_products/0.png";
 import holders2 from "../assets/website_products/1.png";
 import holders4 from "../assets/website_products/41.png";
-import holders5 from "../assets/website_products/5.png";
+import holders3 from "../assets/resized-images/3.png";
+import holders5 from "../assets/resized-images/5.png";
 import holders6 from "../assets/website_products/2.png";
-import holders3 from "../assets/website_products/3.png";
 import neck from "../assets/website_products/9.png";
 import yoyo from "../assets/website_products/6.jpg";
 
@@ -71,11 +71,11 @@ const productData = [
       },
       {
         product_title: "Holders",
-        product_image: holders6,
+        product_image: holders3,
       },
       {
         product_title: "Holders",
-        product_image: holders3,
+        product_image: holders6,
       },
       {
         product_title: "Neck Lanyards",
