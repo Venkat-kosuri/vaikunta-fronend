@@ -33,6 +33,22 @@ import rollup1 from "../assets/resized-images/48.jpg";
 import rollup2 from "../assets/resized-images/49.jpg";
 import banner1 from "../assets/website_products/54.jpg";
 import banner2 from "../assets/website_products/55.jpg";
+
+/// gifting produts
+import gifting1 from "../assets/resized-images/23.jpg";
+import gifting2 from "../assets/resized-images/33.jpg";
+import gifting3 from "../assets/resized-images/31.jpg";
+import gifting4 from "../assets/resized-images/29.jpg";
+import gifting5 from "../assets/resized-images/24.jpg";
+import gifting6 from "../assets/resized-images/25.jpg";
+// import gifting7 from "../assets/resized-images/26.jpg";
+import gifting7 from "../assets/resized-images/26.jpg";
+import gifting8 from "../assets/resized-images/27.jpg";
+import gifting9 from "../assets/resized-images/28.jpg";
+// import gifting10 from "../assets/resized-images/29.jpg";
+import gifting11 from "../assets/resized-images/30.jpg";
+import gifting12 from "../assets/resized-images/32.jpg";
+
 const productData = [
   {
     category: "ID CARD AND ACCESSORIES",
@@ -207,13 +223,51 @@ const productData = [
     category: "GIFTINGS",
     products: [
       {
-        product_title: "Personalized Keychain",
-        product_image: "/images/accessory_keychain.jpg",
+        product_title: " Gifitng",
+        product_image: gifting1,
       },
       {
-        product_title: "Customized Bracelet",
-        product_image: "/images/accessory_bracelet.jpg",
+        product_title: "Gifting",
+        product_image: gifting2,
       },
+      {
+        product_title: "Gifting",
+        product_image: gifting3,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting4,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting5,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting6,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting7,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting8,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting9,
+      },
+
+      {
+        product_title: "Gifting",
+        product_image: gifting11,
+      },
+      {
+        product_title: "Gifting",
+        product_image: gifting12,
+      },
+
       // Add more products for the "Accessories" category
     ],
   },
