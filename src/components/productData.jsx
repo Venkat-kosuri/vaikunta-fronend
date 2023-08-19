@@ -48,7 +48,19 @@ import gifting9 from "../assets/resized-images/28.jpg";
 // import gifting10 from "../assets/resized-images/29.jpg";
 import gifting11 from "../assets/resized-images/30.jpg";
 import gifting12 from "../assets/resized-images/32.jpg";
-
+import bottle from "../assets/website_products/13.jpg";
+import bottle1 from "../assets/website_products/12.jpg";
+import welcomekit1 from "../assets/website_products/10.jpg";
+import welcomekit2 from "../assets/website_products/11.jpg";
+import pens1 from "../assets/website_products/14.jpg";
+import pens2 from "../assets/website_products/15.jpg";
+import mug1 from "../assets/website_products/16.jpg";
+import mug2 from "../assets/website_products/17.jpg";
+import smartwatch1 from "../assets/website_products/18.jpg";
+import smartwatch2 from "../assets/website_products/19.jpg";
+import mousepad1 from "../assets/website_products/20.jpg";
+import mousepad2 from "../assets/website_products/21.jpg";
+import powerbanks from "../assets/website_products/22.jpg";
 const productData = [
   {
     category: "ID CARD AND ACCESSORIES",
@@ -266,6 +278,58 @@ const productData = [
       {
         product_title: "Gifting",
         product_image: gifting12,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle1,
+      },
+      {
+        product_title: "Welcome Kit",
+        product_image: welcomekit1,
+      },
+      {
+        product_title: "Welcome Kit",
+        product_image: welcomekit2,
+      },
+      {
+        product_title: "Pens",
+        product_image: pens1,
+      },
+      {
+        product_title: "Pens",
+        product_image: pens2,
+      },
+      {
+        product_title: "Mugs",
+        product_image: mug1,
+      },
+      {
+        product_title: "Mugs",
+        product_image: mug2,
+      },
+      {
+        product_title: "Smart Watches",
+        product_image: smartwatch1,
+      },
+      {
+        product_title: "Smart Watches",
+        product_image: smartwatch2,
+      },
+      {
+        product_title: "Mouse Pad",
+        product_image: mousepad1,
+      },
+      {
+        product_title: "Mouse Pad",
+        product_image: mousepad2,
+      },
+      {
+        product_title: "Power Bank",
+        product_image: powerbanks,
       },
 
       // Add more products for the "Accessories" category

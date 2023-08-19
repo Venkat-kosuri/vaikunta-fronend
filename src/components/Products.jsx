@@ -21,30 +21,8 @@ const Products = () => {
     });
   }, []);
 
-  const [selectedCategory, setSelectedCategory] = useState(
-    "ID CARD AND ACCESSORIES"
-  );
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const selectedCategoryData = productData.find(
-    (category) => category.category === selectedCategory
-  );
-
-  const filteredProducts =
-    selectedCategory === "All"
-      ? productData.reduce(
-          (acc, category) => [...acc, ...category.products],
-          []
-        )
-      : selectedCategoryData.products;
-
-  const categories = [
-    "All",
-    "ID CARD AND ACCESSORIES",
-    "PRINTING",
-    "MONO CARTON BOXES",
-    "INDOOR & OUTDOOR BRANDING",
-    "GIFTINGS",
-  ];
 
   const openQuoteModal = (product) => {
     setSelectedProduct(product);
@@ -53,6 +31,19 @@ const Products = () => {
   const closeQuoteModal = () => {
     setSelectedProduct(null);
   };
+
+  // Calculate product counts for each category
+  const productCounts = productData.map((category) => category.products.length);
+
+  // Filter products based on the selected category
+  const filteredProducts =
+    selectedCategory === "All"
+      ? productData.reduce(
+          (acc, category) => [...acc, ...category.products],
+          []
+        )
+      : productData.find((category) => category.category === selectedCategory)
+          ?.products || [];
 
   return (
     <>
@@ -64,17 +55,27 @@ const Products = () => {
       ></div>
       <div className="container mx-auto p-4 md:my-20">
         <div className="flex flex-wrap justify-center space-x-3 sm:space-x-4 mb-4">
-          {categories.map((category, index) => (
-            <button
-              key={index}
-              className={`${
-                selectedCategory === category ? "bg-[#F5821F]" : "bg-[#15102A]"
-              } rounded px-4 py-2 text-white mb-4 text-[15px] sm:text-lg`}
-              onClick={() => setSelectedCategory(category)}
-            >
-              {category}
-            </button>
-          ))}
+          {["All", ...productData.map((category) => category.category)].map(
+            (category, index) => (
+              <button
+                key={index}
+                className={`${
+                  selectedCategory === category
+                    ? "bg-[#F5821F]"
+                    : "bg-[#15102A]"
+                } rounded px-4 py-2 text-white mb-4 text-[15px] sm:text-[1rem]`}
+                onClick={() => setSelectedCategory(category)}
+              >
+                {category}{" "}
+                {selectedCategory === category &&
+                  `(${
+                    category === "All"
+                      ? productCounts.reduce((a, b) => a + b, 0)
+                      : productCounts[index - 1]
+                  })`}
+              </button>
+            )
+          )}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
