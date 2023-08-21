@@ -137,7 +137,7 @@ const Form = () => {
           )}
         </button>
       </form>
-      <ToastContainer />;
+      <ToastContainer />
     </>
   );
 };

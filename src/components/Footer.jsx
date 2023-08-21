@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 import ContactButton from "./ContactButton";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaMapPin } from "react-icons/fa";
 import logo from "../assets/images/logo.png";
-import { BiChevronRight, BiSolidMap } from "react-icons/bi";
+import { BiChevronRight } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const Footer = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -35,13 +35,16 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-[#15102A] text-white py-10">
-        <div className="container mx-auto flex flex-wrap justify-center px-5 text-center md:text-start">
-          <div className="w-full md:w-1/4 px-2 mb-6 md:mb-0" data-aos="fade-up">
-            <h6 className="text-lg font-bold mb-4">
+        <div className="container mx-auto flex flex-wrap  px-5  md:text-start">
+          <div
+            className="w-full md:w-1/4  px-5 sm:px-2 mb-6 md:mb-0 text-start"
+            data-aos="fade-up"
+          >
+            <h6 className="text-lg font-bold mb-4 text-start">
               <img
                 src={logo}
                 alt=""
-                className="h-[75px] mx-auto md:ml-0 text-center w-auto rounded-lg"
+                className="h-[75px] mx-auto md:ml-0  text-start w-auto rounded-lg"
                 data-aos="fade-up"
                 data-aos-duration="1200"
               />
@@ -57,56 +60,62 @@ const Footer = () => {
               in Bengaluru.
             </p>
           </div>
+
           <div
-            className="w-full md:w-1/4 lg:pl-5 xl:pl-10 mb-6 md:mb-0"
+            className="w-full md:w-1/4  px-5 sm:px-0 lg:pl-5 xl:pl-10 mb-6 md:mb-0"
             data-aos="fade-up"
           >
             <h6 className="text-lg font-bold mb-4">Get in Touch</h6>
             <div className="text-sm mb-2" data-aos="fade-up">
-              <div className="flex justify-center ">
-                <FaPhone className="mr-2 inline mt-2" /> :
-                <div style={{ paddingLeft: "0.5em", paddingRight: "0.5em" }}>
+              <div className="flex  justify-start sm:justify-normal items-center ">
+                <FaPhone className=" inline md:text-[20px] text-[1rem] sm:mr-1" />
+                <div className="ml-2">
                   <a href="tel:+918431059686" className="text-white">
-                    +91-8431059686
+                    +91-8431059686 ,
                   </a>
+
                   <a href="tel:+918618331760" className="text-white ml-1">
                     +91-8618331760,
                   </a>
+                  <br />
+                  <a href="tel:+919743361222" className="text-white ml-1">
+                    +91-9743361222,
+                  </a>
                 </div>
               </div>
-              <span style={{ marginLeft: "1.5em" }}></span>
-              <a href="tel:+919743361222" className="text-white">
-                +91-9743361222,
-              </a>
-            </div>
-
-            <div className="text-sm mb-2">
-              <FaEnvelope className="inline mr-1" /> :
-              <a
-                href="https://mail.google.com/mail/?view=cm&amp;to=cauveryprints10@gmail.com"
-                className="text-white ml-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-aos="fade-up"
-              >
-                cauveryprints10@gmail.com,
-              </a>
-              <br />
-              <a
-                href="https://mail.google.com/mail/?view=cm&amp;to=cauveryprints@yahoo.co.in"
-                className="text-white md:ml-5"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-aos="fade-up"
-              >
-                cauveryprints@yahoo.co.in
-              </a>
             </div>
 
             <div className="text-sm mb-2" data-aos="fade-up">
-              <div className="flex justify-center ">
-                <BiSolidMap className="mr-1 inline text-2xl md:text-3xl" /> :
-                <div>
+              <div className="flex  justify-start sm:justify-normal items-center ">
+                <FaEnvelope className="inline md:text-[20px] text-[1rem] sm:mr-1" />
+                <div className="ml-2">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&amp;to=cauveryprints10@gmail.com"
+                    className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-aos="fade-up"
+                  >
+                    cauveryprints10@gmail.com,
+                  </a>
+                  <br />
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&amp;to=cauveryprints@yahoo.co.in"
+                    className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-aos="fade-up"
+                  >
+                    cauveryprints@yahoo.co.in
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-sm mb-2" data-aos="fade-up">
+              <div className="flex  justify-start sm:justify-normal items-center ">
+                <FaMapPin className="inline md:text-[20px] text-[1rem] sm:mr-1" />{" "}
+                <div className="ml-2">
                   <a
                     href="https://goo.gl/maps/epH5zXoJPbNbwVVa8"
                     className="text-white text-[14px] ml-1"
@@ -114,7 +123,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     data-aos="fade-up"
                   >
-                    # 544, 1st Main, 1st Cross
+                    #544, 1st Main, 1st Cross
                   </a>
                   <br className=" block sm:hidden" />
                   <a
@@ -130,31 +139,32 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
           <div
-            className="w-full  md:w-1/4 px-10 text-center mb-6 md:mb-0"
+            className="w-full  md:w-1/4  px-5 sm:px-10 sm:text-center mb-6 md:mb-0"
             data-aos="fade-up"
           >
             <h6 className="text-lg font-bold mb-4">Useful Links</h6>
             <ul className="text-md flex justify-center flex-col">
-              <li className="mb-2 flex justify-center items-center">
+              <li className="mb-2 flex  justify-start sm:justify-center items-center">
                 <BiChevronRight className="text-2xl" />
                 <Link to="/" className="mr-2 w-20">
                   Home
                 </Link>
               </li>
-              <li className="mb-2 flex justify-center items-center">
+              <li className="mb-2 flex  justify-start sm:justify-center items-center">
                 <BiChevronRight className="mr-1 text-2xl" />
                 <Link to="/about-us" className="w-20">
                   About Us
                 </Link>
               </li>
-              <li className="mb-2 flex justify-center items-center">
+              <li className="mb-2 flex  justify-start sm:justify-center items-center">
                 <BiChevronRight className="mr-1 text-2xl" />
                 <Link to="#" className="w-20">
                   Products
                 </Link>
               </li>
-              <li className="mb-2 flex justify-center items-center">
+              <li className="mb-2 flex  justify-start sm:justify-center items-center">
                 <BiChevronRight className="mr-1 text-2xl" />
                 <Link to="/contact-us" className="w-20">
                   Contact
@@ -168,7 +178,7 @@ const Footer = () => {
             data-aos="fade-up"
           >
             <h6 className="text-lg font-bold mb-4">Connect with Us</h6>
-            <div className="flex space-x-4 md:justify-start justify-center">
+            <div className="flex space-x-4 md:justify-start ">
               <a
                 href="https://twitter.com/"
                 target="_blank"
