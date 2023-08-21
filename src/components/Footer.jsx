@@ -115,7 +115,7 @@ const Footer = () => {
             <div className="text-sm mb-2" data-aos="fade-up">
               <div className="flex  justify-start sm:justify-normal items-center ">
                 <FaMapPin className="inline md:text-[20px] text-[1rem] sm:mr-1" />{" "}
-                <div className="ml-2">
+                <div className="ml-1 sm:ml-2">
                   <a
                     href="https://goo.gl/maps/epH5zXoJPbNbwVVa8"
                     className="text-white text-[14px] ml-1"
