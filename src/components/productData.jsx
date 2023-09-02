@@ -36,8 +36,8 @@ import banner2 from "../assets/latest_products/OutsideFlexBanner.png";
 import gifting1 from "../assets/latest_products/Trophy1.png";
 import gifting2 from "../assets/latest_products/Trophy2.png";
 import gifting3 from "../assets/latest_products/Trophy3.png";
-import bottle from "../assets/latest_products/bottle1.png";
-import bottle1 from "../assets/latest_products/bottle2.png";
+import bottle from "../assets/latest_products/Bottle1.png";
+import bottle1 from "../assets/latest_products/Bottle2.png";
 // import welcomekit1 from "../assets/website_products/10.jpg";
 // import welcomekit2 from "../assets/website_products/11.jpg";
 const productData = [
