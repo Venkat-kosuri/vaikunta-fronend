@@ -28,7 +28,7 @@ import envelope1 from "../assets/latest_products/DiageoEnvelop.png";
 import certificate1 from "../assets/latest_products/Certificate.png";
 import certificate2 from "../assets/website_products/51.jpg";
 import rollup1 from "../assets/latest_products/DiageoStandee.png";
-import rollup2 from "../assets/latest_products/iconStandee.png";
+import rollup2 from "../assets/latest_products/IconStandee.png";
 import banner1 from "../assets/website_products/54.jpg";
 import banner2 from "../assets/latest_products/OutsideFlexBanner.png";
 
