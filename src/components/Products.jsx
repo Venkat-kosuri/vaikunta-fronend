@@ -82,14 +82,14 @@ const Products = () => {
           {filteredProducts.map((product, index) => (
             <div
               key={index}
-              className="bg-white pb-7 shadow-md text-center relative group rounded-lg"
+              className="bg-whiteh-full w-full pb-7 shadow-md text-center relative group rounded-lg"
             >
               <div className="relative overflow-hidden">
                 <LazyLoadImage
                   src={product.product_image}
                   alt={product.product_title}
                   effect="blur"
-                  className="rounded-t-lg h-full w-full lg:h-[270px] xxl:h-[340px]  object-cover hover:scale-105 hover:transition-transform hover:duration-300 "
+                  className="rounded-t-lg h-full w-full pt-2  object-cover hover:scale-105 hover:transition-transform hover:duration-300 "
                 />
                 <div className="absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity">
                   <div className="bg-black inline-flex justify-center items-center bg-opacity-75 text-white rounded-lg  transform scale-0 group-hover:scale-100 w-full h-full  duration-1000 ">
