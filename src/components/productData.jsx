@@ -19,6 +19,10 @@ import printing5 from "../assets/website_products/35.jpg";
 import visiting1 from "../assets/latest_products/CoffeeDay.png";
 import visiting2 from "../assets/latest_products/Restolex.png";
 import visiting3 from "../assets/latest_products/CDS.png";
+import dailry1 from "../assets/latest_products/Dairy.png";
+import dailry3 from "../assets/latest_products/Dairy3.png";
+import dailry2 from "../assets/latest_products/Dairy2.png";
+import dailry4 from "../assets/latest_products/Dairy4.png";
 import visiting4 from "../assets/latest_products/EmmveeEnvelop.png";
 import letterhands1 from "../assets/latest_products/Letterhead.png";
 import letterhands2 from "../assets/latest_products/DufryLetterhead.png";
@@ -31,15 +35,40 @@ import rollup1 from "../assets/latest_products/DiageoStandee.png";
 import rollup2 from "../assets/latest_products/IconStandee.png";
 import banner1 from "../assets/website_products/54.jpg";
 import banner2 from "../assets/latest_products/OutsideFlexBanner.png";
+import file from "../assets/latest_products/File.png";
+import file1 from "../assets/latest_products/File1.png";
+import file2 from "../assets/latest_products/File2.png";
+import file3 from "../assets/latest_products/File3.png";
 
 /// gifting produts
 import gifting1 from "../assets/latest_products/Trophy1.png";
 import gifting2 from "../assets/latest_products/Trophy2.png";
+import shield from "../assets/latest_products/Sheild1.png";
+import shield1 from "../assets/latest_products/Sheild2.png";
 import gifting3 from "../assets/latest_products/Trophy3.png";
-import bottle from "../assets/latest_products/Bottle1.png";
-import bottle1 from "../assets/latest_products/Bottle2.png";
-// import welcomekit1 from "../assets/website_products/10.jpg";
-// import welcomekit2 from "../assets/website_products/11.jpg";
+import gifting4 from "../assets/latest_products/Trophy4.png";
+import gifting5 from "../assets/latest_products/Trophy5.png";
+import gifting6 from "../assets/latest_products/Trophy6.png";
+import gifting7 from "../assets/latest_products/Trophy7.png";
+import gifting8 from "../assets/latest_products/Trophy8.png";
+import bottle1 from "../assets/latest_products/Bottle1.png";
+import bottle2 from "../assets/latest_products/Bottle2.png";
+import bottle3 from "../assets/latest_products/Bottle3.png";
+import bottle4 from "../assets/latest_products/Bottle4.png";
+import bottle5 from "../assets/latest_products/Bottle5.png";
+// import bottle6 from "../assets/latest_products/Bottle6.png";
+import bottle7 from "../assets/latest_products/Bottle7.png";
+import bottle8 from "../assets/latest_products/Bottle8.png";
+import bottle9 from "../assets/latest_products/Bottle9.png";
+import pen from "../assets/latest_products/Pen.png";
+import pen1 from "../assets/latest_products/Pen1.png";
+import pen2 from "../assets/latest_products/pen2.png";
+import pen3 from "../assets/latest_products/Pen3.png";
+import pen4 from "../assets/latest_products/Pen4.png";
+import Bag from "../assets/latest_products/Bag.png";
+import Bag1 from "../assets/latest_products/Bag1.png";
+import Bag2 from "../assets/latest_products/Bag2.png";
+
 const productData = [
   {
     category: "ID CARD AND ACCESSORIES",
@@ -107,6 +136,22 @@ const productData = [
       },
       {
         product_title: "Dailry",
+        product_image: dailry1,
+      },
+      {
+        product_title: "Dailry",
+        product_image: dailry3,
+      },
+      {
+        product_title: "Dailry",
+        product_image: dailry2,
+      },
+      {
+        product_title: "Dailry",
+        product_image: dailry4,
+      },
+      {
+        product_title: "Dailry",
         product_image: printing4,
       },
       {
@@ -144,6 +189,18 @@ const productData = [
       {
         product_title: "Diageo Envelop",
         product_image: envelope1,
+      },
+      {
+        product_title: "File",
+        product_image: file,
+      },
+      {
+        product_title: "File",
+        product_image: file1,
+      },
+      {
+        product_title: "File",
+        product_image: file2,
       },
 
       {
@@ -217,58 +274,103 @@ const productData = [
         product_title: "Trophy3",
         product_image: gifting3,
       },
-
       {
-        product_title: "Water bottle",
-        product_image: bottle,
+        product_title: "Trophy4",
+        product_image: gifting4,
       },
+      {
+        product_title: "Trophy5",
+        product_image: gifting5,
+      },
+      {
+        product_title: "Trophy6",
+        product_image: gifting6,
+      },
+      {
+        product_title: "Trophy7",
+        product_image: gifting7,
+      },
+      {
+        product_title: "Trophy8",
+        product_image: gifting8,
+      },
+      {
+        product_title: "Sheild",
+        product_image: shield,
+      },
+      {
+        product_title: "Sheild",
+        product_image: shield1,
+      },
+
       {
         product_title: "Water bottle",
         product_image: bottle1,
       },
+      {
+        product_title: "Water bottle",
+        product_image: bottle2,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle3,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle4,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle5,
+      },
       // {
-      //   product_title: "Welcome Kit",
-      //   product_image: welcomekit1,
+      //   product_title: "Water bottle",
+      //   product_image: bottle6,
       // },
-
-      // {
-      //   product_title: "Pens",
-      //   product_image: pens1,
-      // },
-      // {
-      //   product_title: "Pens",
-      //   product_image: pens2,
-      // },
-      // {
-      //   product_title: "Mugs",
-      //   product_image: mug1,
-      // },
-      // {
-      //   product_title: "Mugs",
-      //   product_image: mug2,
-      // },
-      // {
-      //   product_title: "Smart Watches",
-      //   product_image: smartwatch1,
-      // },
-      // {
-      //   product_title: "Smart Watches",
-      //   product_image: smartwatch2,
-      // },
-      // {
-      //   product_title: "Mouse Pad",
-      //   product_image: mousepad1,
-      // },
-      // {
-      //   product_title: "Mouse Pad",
-      //   product_image: mousepad2,
-      // },
-      // {
-      //   product_title: "Power Bank",
-      //   product_image: powerbanks,
-      // },
-
-      // Add more products for the "Accessories" category
+      {
+        product_title: "Water bottle",
+        product_image: bottle7,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle8,
+      },
+      {
+        product_title: "Water bottle",
+        product_image: bottle9,
+      },
+      {
+        product_title: "Pen",
+        product_image: pen,
+      },
+      {
+        product_title: "Pen",
+        product_image: pen1,
+      },
+      {
+        product_title: "Pen",
+        product_image: pen2,
+      },
+      {
+        product_title: "Pen",
+        product_image: pen3,
+      },
+      {
+        product_title: "Pen",
+        product_image: pen4,
+      },
+      {
+        product_title: "Bag",
+        product_image: Bag,
+      },
+      {
+        product_title: "Bag",
+        product_image: Bag1,
+      },
+      {
+        product_title: "Bag",
+        product_image: Bag2,
+      },
     ],
   },
   // Add more category objects as needed
