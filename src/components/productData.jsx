@@ -202,6 +202,10 @@ const productData = [
         product_title: "File",
         product_image: file2,
       },
+      {
+        product_title: "File",
+        product_image: file3,
+      },
 
       {
         product_title: "Certificate ",
