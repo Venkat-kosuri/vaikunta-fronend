@@ -32,7 +32,7 @@ const QuoteModal = ({ product, onClose }) => {
 
     try {
       const response = await axios.post(
-        "https://vaikunta.onrender.com/send-quote-request",
+        "https://vaikuntaapi.onrender.com/send-quote-request",
         formData
       );
 

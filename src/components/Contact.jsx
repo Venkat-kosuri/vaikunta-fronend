@@ -36,7 +36,9 @@ const Contact = () => {
 
   const handleSubmit = async () => {
     try {
-      var result = await axios.post("https://vaikunta.onrender.com/sendmail");
+      var result = await axios.post(
+        "https://vaikuntaapi.onrender.com/sendmail"
+      );
       console.log(result);
     } catch (error) {
       console.log(error.message);
