@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-
+import axios from "axios";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 const QuoteModal = ({ product, onClose }) => {
   const [formData, setFormData] = useState({
     productName: product.product_title,
@@ -18,11 +21,43 @@ const QuoteModal = ({ product, onClose }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const showToastMessage = () => {
+    toast.success("Email sent successfully", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission, e.g. send data to server
-    console.log("Form data:", formData);
-    onClose();
+
+    try {
+      const response = await axios.post(
+        "https://vaikunta.onrender.com/send-quote-request",
+        formData
+      );
+
+      if (response.status === 200) {
+        console.log("Email sent successfully");
+        showToastMessage();
+        // Clear the form inputs
+        setFormData({
+          productName: product.product_title,
+          quantity: "",
+          name: "",
+          email: "",
+          address: "",
+          specialNotes: "",
+        });
+        // Close the popup after a brief delay (e.g., 2 seconds)
+        setTimeout(() => {
+          onClose();
+        }, 5000);
+      } else {
+        console.error("Failed to send email");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
   };
 
   return (
@@ -114,6 +149,7 @@ const QuoteModal = ({ product, onClose }) => {
           </div>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };

@@ -69,6 +69,12 @@ import Bag from "../assets/latest_products/Bag.png";
 import Bag1 from "../assets/latest_products/Bag1.png";
 import Bag2 from "../assets/latest_products/Bag2.png";
 
+////mono cart
+
+import boxa from "../assets/latest_products/Boxa.png";
+import boxb from "../assets/latest_products/Boxb.png";
+import boxc from "../assets/latest_products/Boxc.png";
+
 const productData = [
   {
     category: "ID CARD AND ACCESSORIES",
@@ -239,13 +245,18 @@ const productData = [
     category: "MONO CARTON BOXES",
     products: [
       {
-        product_title: "Plain Keychain",
-        product_image: "/images/accessory_keychain.jpg",
+        product_title: "Box a",
+        product_image: boxa,
       },
       {
-        product_title: "Decorative Bracelet",
-        product_image: "/images/accessory_bracelet.jpg",
+        product_title: "Box b",
+        product_image: boxb,
       },
+      {
+        product_title: "Box c",
+        product_image: boxc,
+      },
+
       // Add more products for the "Accessories" category
     ],
   },
