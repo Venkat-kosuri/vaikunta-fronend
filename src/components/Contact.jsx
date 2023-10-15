@@ -78,9 +78,9 @@ const Contact = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Get in touch to discuss your employee wellbeing needs today. Please
-            give us a call, drop us an email, or fill out the contact form, and
-            we’ll get back to you.
+            Feel free to contact us to discuss your employee well-being needs
+            today. You can give us a call, send an email, or fill out the
+            contact form, and we'll promptly respond to your inquiry
           </p>
         </div>
       </div>
@@ -206,7 +206,7 @@ const Contact = () => {
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
-                Hours of Operation
+                Business Hours
               </h2>
               <p data-aos="fade-up" data-aos-duration="1200">
                 Monday - Friday: 9:00 AM - 6:30 PM

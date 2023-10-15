@@ -37,7 +37,7 @@ const Form = () => {
     event.preventDefault();
     setIsLoading(true);
     try {
-      await axios.post("http://localhost:3000/sendmail", formData);
+      await axios.post("https://vaikuntaapi.onrender.com/sendmail", formData);
       showToastMessage();
       setFromData({
         name: "",

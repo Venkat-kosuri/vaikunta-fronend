@@ -9,7 +9,7 @@ import premiumtrophy from "../assets/images/premiumtrophycat.png";
 import trophywood from "../assets/images/trophywoodmetalcat.png";
 import penscat from "../assets/images/penscat.png";
 import { FaArrowRight } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 const Upcoming = () => {
   useEffect(() => {
     AOS.init(); // Initialize AOS
@@ -82,16 +82,17 @@ const Upcoming = () => {
                 {card.title}
               </h5>
             </a>
-            <a
-              href="#"
+            <Link
+              to="/products"
               className="inline-flex  items-center px-3 py-2 text-sm font-medium text-center text-[#fff] rounded-lg hover:bg-[#15102A] bg-[#F5821F] focus:ring-4 focus:outline-none focus:ring-blue-300 transition-colors mt-4"
             >
-              <span className="mr-1">View All </span>
+              {" "}
+              <span className="mr-1">View All </span>{" "}
               <FaArrowRight
                 className="ml-1 transition-transform duration-300"
                 size={18}
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -133,10 +134,13 @@ const Upcoming = () => {
         </div>
 
         <div className="container mx-auto mt-5 md:mt-0 px-4 flex flex-wrap items-center justify-center md:justify-end ">
-          <button className="inline-flex items-center border-2 hover:bg-[#15102A] border-[#F5821F] hover:border-[#15102A] text-[#fff] text-lg px-4 py-2 transition-colors bg-[#F5821F] hover:text-[#fff] rounded-full w-auto">
-            View All
-            <FaArrowRight className="ml-2" />
-          </button>
+          <Link to="/products">
+            {" "}
+            <button className="inline-flex items-center border-2 hover:bg-[#15102A] border-[#F5821F] hover:border-[#15102A] text-[#fff] text-lg px-4 py-2 transition-colors bg-[#F5821F] hover:text-[#fff] rounded-full w-auto">
+              View All
+              <FaArrowRight className="ml-2" />
+            </button>
+          </Link>
         </div>
       </div>
 

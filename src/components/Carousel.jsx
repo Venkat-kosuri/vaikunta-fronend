@@ -10,7 +10,7 @@ import premiumtrophy from "../assets/images/premiumtrophycat.png";
 import trophywood from "../assets/images/trophywoodmetalcat.png";
 import penscat from "../assets/images/penscat.png";
 import { FaArrowRight } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 const Carousel = () => {
   const options = {
     loop: true,
@@ -95,7 +95,10 @@ const Carousel = () => {
                 href="#"
                 className="inline-flex  border-white  border-2 items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-[#15102A] bg-[#F5821F]  focus:ring-4 focus:outline-none focus:ring-blue-300  transition-colors"
               >
-                <span className="mr-1">View All </span>
+                <Link to="/products">
+                  {" "}
+                  <span className="mr-1">View All </span>{" "}
+                </Link>
                 <FaArrowRight
                   className="ml-1 transition-transform duration-300"
                   size={18}

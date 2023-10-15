@@ -137,31 +137,31 @@ const productData = [
         product_image: printing2,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: printing3,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: dailry1,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: dailry3,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: dailry2,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: dailry4,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: printing4,
       },
       {
-        product_title: "Dailry",
+        product_title: "Dairy",
         product_image: printing5,
       },
       {

@@ -32,7 +32,7 @@ const AboutUs = () => {
           data-aos="fade-up"
           data-aos-duration="1300"
         >
-          Experience the Power of Customized Printing and Corporate Gifting :
+          Experience the Power of Customized Printing and Corporate Gifting:
         </h2>
 
         <p className="mb-4 " data-aos="fade-up" data-aos-duration="1300">
@@ -48,20 +48,20 @@ const AboutUs = () => {
             Why Choose Vaikunta Enterprises Print Solutions?
           </h3>
           <p className="mb-4">
-            Since 2000, We are thrilled that our hard-working team at Vaikunta
-            Enterprises has been a premier print solutions company for people
-            all over Bangalore and surrounding areas. We have maintained an
-            excellent reputation and partnered with our clients over the past 23
-            years, working with Mitsubishi, Emmvee, Sobha, ABB, Hitachi, and
-            more luxury brands. You can browse some of the innovative services
-            we’ve worked on.
+            Since 2000, we're delighted that our hardworking team at Vaikunta
+            Enterprises has been a premier print solutions company serving
+            people throughout Bangalore and its surrounding areas. Over the past
+            23 years, we've maintained an excellent reputation and partnered
+            with renowned clients such as Mitsubishi, Emmvee, Sobha, ABB,
+            Hitachi, and more luxury brands. Feel free to browse through some of
+            the innovative services we've had the privilege to work on.
           </p>
         </div>
 
         <div className="mt-8" data-aos="fade-up" data-aos-duration="1300">
           <h3 className="text-xl font-bold mb-4">
-            Printing Services: A one-stop solution for all your printing needs
-            in today's competitive market
+            Printing Services: A One-Stop Solution for All Your Printing Needs
+            in Today's Competitive Market
           </h3>
           <p className="mb-4 ">
             We understand the diverse requirements of businesses, from essential
@@ -80,11 +80,11 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         <p className="py-8" data-aos="fade-up" data-aos-duration="1200">
           <h1 className="mb-4 text-2xl font-bold">
-            We’ve partnered with companies for more than 23 years to develop
-            successful business relationships.
+            We've Partnered with Companies for Over 23 Years to Build Successful
+            Business Relationships.
           </h1>
           <p className="mb-4 text-black text-[20px] font-bold">
-            What are the Advantages of Digital Printing?
+            What Are the Advantages of Digital Printing?
           </p>
           <ul className="list-disc list-inside ml-6">
             <li
@@ -106,7 +106,7 @@ const AboutUs = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              All Sizes are available
+              Availability in All Sizes
             </li>
             <li
               className="text-black mb-2"
@@ -124,15 +124,15 @@ const AboutUs = () => {
             </li>
           </ul>
           <p className="mt-6" data-aos="fade-up" data-aos-duration="1700">
-            Our digital printing process is streamlined for our clients, so
-            there’s no hassle involved! Simply give us your files, and we will
-            send you a PDF proof for final approval before printing. This
-            ensures the proof is correct and will print exactly as you had
-            hoped. Once your high-quality digital prints are finished, we
-            prepare your order for pickup. We can also ship your order,
-            depending on your individual needs. We will schedule a project start
-            time and pick-up time so you know what to expect. No matter how
-            large your order is, we strive for timeliness and quality.
+            Our digital printing process is streamlined for our clients,
+            ensuring a hassle-free experience. Just provide us with your files,
+            and we'll send you a PDF proof for final approval before printing.
+            This ensures the proof is correct and will print exactly as you had
+            hoped. Once your high-quality digital prints are ready, we'll
+            prepare your order for pickup or arrange shipping based on your
+            individual needs. We'll schedule a project start time and pick-up
+            time so you know what to expect. Regardless of the order size, we
+            prioritize timeliness and quality.
           </p>
         </p>
       </div>
@@ -150,13 +150,13 @@ const AboutUs = () => {
               </h2>
               <h2 className="text-2xl font-bold mb-4 text-black">Mr. Prabhu</h2>
               <p className="text-gray-700">
-                Company is headed by the Managing Director &amp; Founder, Mr.
-                Prabhu with an experience of over two decades in the field of
-                the printing industry. He's ably supported by a profound team of
-                managers, executives and skilled staff. It has been our constant
-                endeavor to provide a Congenial working atmosphere and thereby
-                resulting in the best quality of products and services to the
-                clients. We have employed a team of well experienced who work in
+                The company is led by the the Managing Director &amp; Founder,
+                Mr. Prabhu, who has over two decades of experience in the
+                printing industry. He's supported by a dedicated team of
+                managers, executives, and skilled staff. Our constant endeavor
+                has been to create a congenial working atmosphere, resulting in
+                the best quality of products and services for our clients. We've
+                assembled a team of highly experienced professionals who work in
                 close coordination.
               </p>
             </div>

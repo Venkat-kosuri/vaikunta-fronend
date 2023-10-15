@@ -52,12 +52,9 @@ const Footer = () => {
             <p className="text-sm">
               we specialize in delivering personalized printing solutions and
               premium corporate gifts that leave a lasting impression. With our
-              expertise and commitment to excellence,
-            </p>
-            <p className="text-sm mt-1">
-              we go above and beyond to exceed your expectations and elevate
-              your brand's image. Trust us to enhance our top-quality services
-              in Bengaluru.
+              expertise and commitment to excellence we go above and beyond to
+              exceed your expectations and elevate your brand's image. Trust us
+              to enhance our top-quality services in Bengaluru.
             </p>
           </div>
 
