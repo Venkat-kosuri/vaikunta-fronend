@@ -6,7 +6,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { clientImages, clientImages3 } from "./clientImages";
 import "./hero.css";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   const carouselOptions = {
     loop: true,
@@ -72,11 +72,11 @@ const Hero = () => {
                       Printing Services
                     </h1>
                     <p className="intro-subtitle intro-price">
-                      <a href="#">
+                      <Link to="/contact-us">
                         <span className="price-a hover:bg-[#F5821F] hover:text-white text-white">
                           Get a Quote
                         </span>
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -134,11 +134,11 @@ const Hero = () => {
                       Printing Services
                     </h1>
                     <p className="intro-subtitle intro-price">
-                      <a href="#">
+                      <Link to="/contact-us">
                         <span className="price-a hover:bg-[#F5821F] hover:text-white text-white">
                           Get a Quote
                         </span>
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -196,11 +196,11 @@ const Hero = () => {
                       Printing Solutions
                     </h1>
                     <p className="intro-subtitle intro-price">
-                      <a href="#">
+                      <Link to="/contact-us">
                         <span className="price-a hover:bg-[#F5821F] hover:text-white text-white">
                           Get a Quote
                         </span>
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

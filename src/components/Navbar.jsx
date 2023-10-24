@@ -141,12 +141,12 @@ const Navbar = () => {
             </Link>
           </div>
           <span>
-            <a
-              href="#"
+            <Link
+              to="/contact-us"
               className="hidden p-3 px-6 pt-2 text-white bg-[#15102A] rounded-full baseline hover:bg-[#F5821F] md:block transition-colors duration-300 ease-in-out"
             >
               Get Started
-            </a>
+            </Link>
           </span>
           <button
             className="block hamburger md:hidden focus:outline-none p-2 rounded-md text-gray-900 hover:text-gray-700 transition duration-300 ease-in-out transform hover:scale-110"

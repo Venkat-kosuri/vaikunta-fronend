@@ -257,7 +257,7 @@ const productData = [
         product_image: boxc,
       },
 
-      // Add more products for the "Accessories" category
+      // Add more products for the "MONO CARTON BOXES" category
     ],
   },
   {
@@ -271,7 +271,7 @@ const productData = [
         product_title: "Logo Bracelet",
         product_image: "/images/accessory_bracelet.jpg",
       },
-      // Add more products for the "Accessories" category
+      // Add more products for the "INDOOR & OUTDOOR BRANDING" category
     ],
   },
   {
@@ -388,7 +388,7 @@ const productData = [
       },
     ],
   },
-  // Add more category objects as needed
+  // Add more products for the "GIFTING" category
 ];
 
 export default productData;
